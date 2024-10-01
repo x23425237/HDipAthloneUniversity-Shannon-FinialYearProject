@@ -23,8 +23,8 @@ Under the supervision of Jonny O'Dwyer
 April 2024
 
 
-Contents
-Data-Driven Approach to Drinking Water Quality Assessment in Cork County using Exploratory Data Analysis (EDA) and Machine Learning Algorithms	1
+# Contents
+## Data-Driven Approach to Drinking Water Quality Assessment in Cork County using Exploratory Data Analysis (EDA) and Machine Learning Algorithms	1
 1. Introduction	4
 1.1	Water quality in Ireland	5
 2. Project Objectives	6
