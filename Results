@@ -1,0 +1,128 @@
+#Below modles are built sofar 
+### IRON ##########################
+
+#RandomForest (scale the test and train )
+Mean Squared Error (MSE): 857.4262082421607
+Root Mean Square Error (RMSE): 29.28184092986916
+mean_absolute_error :  1.1634034529759183
+
+
+#Knn(scale the test and train )
+Root Mean Square Error (RMSE): 27.61243154384528
+Mean Squared Error (MSE): 762.4463757635418
+mean_absolute_error :  6.805429350295319
+
+
+#MultiLinearRegression
+mean_squared_error :  6591.113542499981
+mean_absolute_error :  22.04841956925427
+
+
+
+
+
+
+
+
+### Nitrate ####################################################################
+
+# MultiLinear regression all 
+mean_squared_error :  38.579893269622126
+mean_absolute_error :  2.8574254435122053
+Root Mean Square Error (RMSE): 6.211271469644691
+
+
+#Lasso all 
+mean_squared_error :  51.73880381396274
+mean_absolute_error :  3.9433221216481367
+Root Mean Square Error (RMSE): 7.192969054150222
+
+#redge Regression - All
+mean_squared_error :  47.14014087036798
+mean_absolute_error :  3.655880162831206
+Root Mean Square Error (RMSE): 6.865867816260955
+
+
+
+
+# Lasso Regression alpha = 1
+mean_squared_error :  56.05255887350797
+mean_absolute_error :  4.185936489560409
+Root Mean Square Error (RMSE): 7.486825687399699
+12.939540393097595
+
+#Lasso Regression alpha=0.002 hyper parameter tuning 
+mean_squared_error :  37.93202943543424
+mean_absolute_error :  2.962153621635754
+Root Mean Square Error (RMSE): 6.158898394634729
+
+### Nitrate removing  non co-related variables 
+mean_squared_error :  38.787912036466786
+mean_absolute_error :  2.7977335085075725
+Root Mean Square Error (RMSE): 6.227994222578148
+17.590883262379602
+
+
+### Nitrate removing  0 values in the target variable 
+mean_squared_error :  185.23257759304894
+mean_absolute_error :  10.450665591902121
+Root Mean Square Error (RMSE): 13.61001754565544
+
+
+
+
+# RandomForest( non scale )
+mean_squared_error on train data :  3.899316547911825
+mean_squared_error :  29.698585110776417
+mean_absolute_error :  1.7827341359987883
+Root Mean Square Error (RMSE): 5.449640824015507
+
+
+randomforest(StandardScaler)
+mean_squared_error on train data :  3.8733395169658658
+mean_squared_error :  29.791278546619843
+mean_absolute_error :  1.7960315538391638
+Root Mean Square Error (RMSE): 5.458138743804507
+
+
+# RandomForestMinmaxScaling
+mean_squared_error on train data :  3.886187970776317
+mean_squared_error :  29.796789962916986
+mean_absolute_error :  1.7940154248069058
+Root Mean Square Error (RMSE): 5.458643601016372
+
+
+
+#nonZeroData
+mean_squared_error on train data :  3.8631264597683947
+mean_squared_error :  34.196642499305554
+mean_absolute_error :  1.9384772785213509
+Root Mean Square Error (RMSE): 5.847789539587207
+
+
+#knn/ scale
+mean_squared_error :  32.91437666685598
+mean_absolute_error :  1.974537710131758
+Root Mean Square Error (RMSE): 5.737105251505848
+
+
+
+#knn witnout scale k=10
+mean_squared_error :  38.782762812812365
+mean_absolute_error :  2.1223630168105405
+Root Mean Square Error (RMSE): 6.227580815438076
+
+
+###############################
+URL: RandomForest
+https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74
+
+
+
+
+
+
+
+
+
+
